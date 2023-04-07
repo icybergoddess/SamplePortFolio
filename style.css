@@ -1,0 +1,58 @@
+ body {
+     text-align: center;
+     margin: 0px;
+ }
+
+ .navigation {
+     background-color: rgb(198, 9, 198);
+     position: fixed;
+     width: 100%;
+     top: 0px;
+     margin-top: 0px;
+     z-index: 10;
+     height: 60px;
+ }
+
+ .links {
+     display: inline;
+     font-size: 20px;
+     margin-left: 50px;
+ }
+
+ .a {
+     text-decoration: none;
+     color: black;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+
+ /* pseudo class -selector:pseudo-class{property:value;} */
+ .a:hover {
+     font-size: 35px;
+     color: aqua;
+ }
+
+ html {
+     scroll-behavior: smooth;
+ }
+
+ #profile {
+     margin-top: 100px;
+     width: 300px;
+     height: 300px;
+     border-radius: 50%;
+ }
+
+ #title {
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     margin-top: 0;
+     font-size: 60px;
+ }
+
+ h3 {
+     margin-top: 0px;
+
+ }
+
+ #Home {
+     background-image: linear-gradient(to right, white, purple);
+ }
